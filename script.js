@@ -1,15 +1,8 @@
-    var instagram = document.querySelector("instagram");
-    var instagramUrl =  'https://www.instagram.com/priyankbhatt09?igsh=MXc3NmxveXFoenU4bA==';
-    document.addEventListener('DOMContentLoaded', function() {
-    instagram.addEventListener("click" ,() =>{
-       
-        window.location.href = instagramUrl;
-    });
-});
+   
 
     var buttonAction =document.getElementById('sendButton');
 
-    buttonAction.addEventListener('click', function() {
+    buttonAction.addEventListener('click', () => {
         // Retrieve values from inputs
         var fullName = document.getElementById("fullName").value;
         var email = document.getElementById("email").value;
@@ -22,7 +15,7 @@
         }
 
         // Your WhatsApp phone number (for sending messages)
-        var whatsappNumber = "7302022238"; // Replace with your WhatsApp number
+        var whatsappNumber = "7302022238"; 
 
         // Construct the message
         var formattedMessage = `Name: ${fullName}\nEmail: ${email}\nPhone: ${phoneNumber}\nSubject: ${subject}\nMessage: ${message}`;
