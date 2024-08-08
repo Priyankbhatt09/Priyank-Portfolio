@@ -11,7 +11,7 @@
 }
 
 :root{
-    --bg-color: #000008;
+    --bg-color: #080600;
     --second-bg-color: #131313;
     --text-color: white;
     --main-color:#00ffee;
@@ -391,7 +391,7 @@ width: 15px;
     }
 
     .services{
-        background-color: var(--bg-color);
+        background-color: var(--second-bg-color);
         color: black;
     }
     .services h2{
@@ -443,7 +443,7 @@ width: 15px;
     }
 
     .contact{
-        background-color: var(--second-bg-color);
+        background-color: var(--bg-color);
     }
     .contact h2{
         margin-bottom: 3rem;

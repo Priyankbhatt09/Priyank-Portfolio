@@ -18,7 +18,8 @@
         var whatsappNumber = "7302022238"; 
 
         // Construct the message
-        var formattedMessage = `Name: ${fullName}\nEmail: ${email}\nPhone: ${phoneNumber}\nSubject: ${subject}\nMessage: ${message}`;
+        var formattedMessage = `Name: ${fullName}\nEmail: ${email}\nPhone: ${phoneNumber}
+        \nSubject: ${subject}\nMessage: ${message}`;
         
         // Construct the WhatsApp URL
         var url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(formattedMessage)}`;
